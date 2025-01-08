@@ -51,7 +51,7 @@ export const MenuLayout: React.FC = () => {
   ];
 
   const handleCopyCA = () => {
-    navigator.clipboard.writeText('TB');
+    navigator.clipboard.writeText('b');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
